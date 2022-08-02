@@ -1,5 +1,5 @@
 import sys
-
+from settings import Settings
 import pygame
 
 
@@ -10,7 +10,10 @@ class AlienInvasion:
         """初始化游戏并创建游戏资源。"""
         pygame.init()
 
-        self.screen = pygame.display.set_mode((1200,800))
+        self.settings = Settings()
+
+        self.screen = pygame.display.set_mode((self.settings.screen_width,self.settings.screen_height))
+
         pygame.display.set_caption("Alien Invasion")
 
         #设置背景色
@@ -25,7 +28,7 @@ class AlienInvasion:
                     sys.exit()
 
             #每次循环都重新绘制屏幕
-            self.screen.fill(self.bg_color)
+            self.screen.fill(self.settings.bg_color)
 
             #让最近绘制的屏幕可见。
             pygame.display.flip()
