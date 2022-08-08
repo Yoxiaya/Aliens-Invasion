@@ -14,9 +14,9 @@ git clone https://github.com/night-sky-koi/Aliens-Invasion.git
 python PLAY.py
 ```
 # 运行方法
-单击主界面的Play按钮就可以开始运行啦
-A键和D键控制飞机移动
-点按空格键发射子弹
+- 单击主界面的Play按钮就可以开始运行啦!
+- A键和D键控制飞机移动
+- 点按空格键发射子弹
 # 退出方式
 Q键即可结束游戏
 # 开始界面
