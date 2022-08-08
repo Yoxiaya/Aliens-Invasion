@@ -9,9 +9,17 @@ pip install pygame
 ```
 git clone https://github.com/night-sky-koi/Aliens-Invasion.git
 ```
-## 3.在Aliens-Invasion根目录下用使用powersh运行
+## 3.在Aliens-Invasion根目录下用使用powershell运行
 ```
 python PLAY.py
 ```
+# 运行方法
+单击主界面的Play按钮就可以开始运行啦
+A键和D键控制飞机移动
+点按空格键发射子弹
+# 退出方式
+Q键即可结束游戏
+# 开始界面
+![image](public/image/游戏主界面.png)
 # 免责声明
 1.本项目仅供学习使用，禁止用于商业用途
